@@ -1,12 +1,14 @@
-README
+README-自述文件
 ======
 
-Compiling:
+编译:
     autoreconf -is
+    如果命令不存在就安装automake
+    确保已经安装了libnfc
     ./configure
     make
 
-Running (most basic):
+运行 (最基本):
     ./mfcuk -C -R 0:A -v 2
 
 PACKAGE
